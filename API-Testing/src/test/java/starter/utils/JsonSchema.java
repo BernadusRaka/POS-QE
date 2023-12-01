@@ -22,4 +22,5 @@ public class JsonSchema {
     public static final String REGISTER_CASHIER_RESPONSE_SCHEMA = "schema/register_cashier_response_schema.json";
     public static final String GET_ALL_CASHIER_RESPONSE_SCHEMA = "schema/get_all_cashier_schema.json";
     public static final String GET_CASHIER_BY_ID_RESPONSE_SCHEMA = "schema/get_cashier_by_id_repsonse_schema.json";
+    public static final String GET_SUPER_ADMIN_BY_ID_RESPONSE_SCHEMA = "schema/get_super_admin_by_id.json";
 }

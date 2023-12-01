@@ -12,7 +12,7 @@ public class GetterAdmin {
         String tokenSA = GenerateTokenSuperAdmin.generateTokenSuperAdmin();
 
         ResponseBody AdminResponse = SerenityRest.given()
-                .header("Content-Type", "application/json")
+//                .header("Content-Type", "application/json")
                 .header("Authorization", "Bearer " + tokenSA)
                 .get(urlGetAllAdmin);
 
@@ -28,7 +28,7 @@ public class GetterAdmin {
         String token = GenerateTokenSuperAdmin.generateTokenSuperAdmin();
 
         ResponseBody AdminResponse = SerenityRest.given()
-                .header("Content-Type", "application/json")
+//                .header("Content-Type", "application/json")
                 .header("Authorization", "Bearer " + token)
                 .get(urlGetAllAdmin);
 
@@ -37,7 +37,7 @@ public class GetterAdmin {
         JSONArray adminData = productsResponseBody.getJSONArray("results");
 
         JSONObject lastAdmin = adminData.getJSONObject(adminData.length() - 1);
-        return lastAdmin.getString("fullname");
+        return lastAdmin.optString("fullname");
     }
 
 

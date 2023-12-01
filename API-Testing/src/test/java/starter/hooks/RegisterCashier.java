@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class RegisterCashier {
 
-    @Before(value = "@RegisterAdmin")
+    @Before(value = "@RegisterCashier")
     public static void beforeTest() {
 
         Integer adminID = 1;

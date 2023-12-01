@@ -1,9 +1,6 @@
 package starter.Cashier;
 
 import com.github.javafaker.Faker;
-import io.cucumber.java.en.And;
-import io.cucumber.java.en.Given;
-import io.cucumber.java.en.When;
 import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
 import org.json.JSONObject;
@@ -28,14 +25,14 @@ public class UpdateCashier {
 
         JSONObject requestBody = new JSONObject();
         int lastCashierID = GetterCashier.getLastCashierID();
-
+        int lastAdminID = GetterAdmin.getLastAdminID();
 
         Faker faker = new Faker();
         String fullname = faker.name().lastName();
         String username = faker.name().username();
         String password = faker.internet().password();
 
-        requestBody.put("AdminID", lastCashierID);
+        requestBody.put("AdminID", lastAdminID);
         requestBody.put("fullname", fullname);
         requestBody.put("username", username);
         requestBody.put("password", password);
@@ -72,13 +69,13 @@ public class UpdateCashier {
     public void requestUpdateCashierInvalidData(){
 
         JSONObject requestBody = new JSONObject();
-        int lastCashierID = GetterCashier.getLastCashierID()+1;
-
+        int lastCashierID = GetterCashier.getLastCashierID();
+        int lastAdminID = GetterAdmin.getLastAdminID();
         Faker faker = new Faker();
         String fullname = faker.name().lastName();
         String password = faker.internet().password();
 
-        requestBody.put("AdminID", lastCashierID);
+        requestBody.put("AdminID", lastAdminID);
         requestBody.put("fullname", fullname);
         requestBody.put("username", "@!#@!*#&!@)");
         requestBody.put("password", password);
@@ -105,8 +102,9 @@ public class UpdateCashier {
         String username = faker.name().username();
         String password = faker.internet().password();
         int lastCashierID = GetterCashier.getLastCashierID();
+        int lastAdminID = GetterAdmin.getLastAdminID();
 
-        requestBody.put("adminID", lastCashierID);
+        requestBody.put("adminID", lastAdminID);
         requestBody.put("fullname", fullname);
         requestBody.put("username", username);
         requestBody.put("password", password);

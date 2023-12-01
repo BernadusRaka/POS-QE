@@ -126,7 +126,7 @@ public class RegisterAdmin {
 
         requestBody.put("superAdminID", 1);
         requestBody.put("fullname", fullname);
-        requestBody.put("username", "@!#@#!$%^#@!@");
+        requestBody.put("username", password);
         requestBody.put("password", password);
 
         String token = GenerateTokenSuperAdmin.generateTokenSuperAdmin();
