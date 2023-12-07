@@ -23,4 +23,12 @@ public class JsonSchema {
     public static final String GET_ALL_CASHIER_RESPONSE_SCHEMA = "schema/get_all_cashier_schema.json";
     public static final String GET_CASHIER_BY_ID_RESPONSE_SCHEMA = "schema/get_cashier_by_id_repsonse_schema.json";
     public static final String GET_SUPER_ADMIN_BY_ID_RESPONSE_SCHEMA = "schema/get_super_admin_by_id.json";
+    public static final String DELETE_MEMBERSHIP_BY_ID_RESPONSE_SCHEMA = "schema/delete_membership_response_schema.json";
+    public static final String GET_ALL_MEMBERSHIP_RESPONSE_SCHEMA = "schema/get_all_membership_schema.json";
+    public static final String GET_ALL_MEMBERSHIP_INVALID_ENDPOINT_RESPONSE_SCHEMA = "schema/get_all_membershi_invalid_endpoint_schema.json"
+    public static final String GET_MEMBERSHIP_BY_ID_RESPONSE_SCHEMA = "schema/get_membership_by_id_response_schema.json";
+    public static final String GET_MEMBERSHIP_BY_NAME_RESPONSE_SCHEMA = "schema/get_membership_by_name_response_schema.json";
+    public static final String GET_MEMBERSHIP_BY_PHONE_RESPONSE_SCHEMA = "schema/get_membership_by_phone_response_schema.json";
+    public static final String REGISTER_MEMBERSHIP_RESPONSE_SCHEMA = "schema/register_membership_response_schema.json";
+    public static final String UPDATE_MEMBERSHIP_RESPONSE_SCHEMA = "schema/update_membership_response_schema.json";
 }
