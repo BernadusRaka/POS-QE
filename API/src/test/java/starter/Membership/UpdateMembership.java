@@ -30,7 +30,7 @@ public class UpdateMembership {
         String name = faker.name().name();
         String phoneNumber = faker.phoneNumber().phoneNumber();
         requestBody.put("name", name);
-        requestBody.put("phoneNumber", "088989089878");
+        requestBody.put("phoneNumber", "088989089878"); /*Ganti sebelum test run*/
 
         SerenityRest.given()
                 .header("Content-Type","application/json")
