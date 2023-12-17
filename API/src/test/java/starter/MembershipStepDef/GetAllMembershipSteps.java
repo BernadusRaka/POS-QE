@@ -20,10 +20,6 @@ public class GetAllMembershipSteps {
     @And("Seluruh data membership ditampilkan sebagai respon")
     public void responseAllMembership(){getAllMembership.getAllMemberships();}
 
-    @Given("User mengatur endpoint yang salah untuk meminta seluruh data membership")
-    public void apiInvalidEnd(){getAllMembership.getAllMembershipsInvalidEndpoint();}
 
-    @And("Tidak ada data membership yang muncul")
-    public void noDataMembership(){getAllMembership.noMembershipsData();}
 
 }

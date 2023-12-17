@@ -15,7 +15,10 @@ public class StatusCodeSteps {
     public void statusCode404(){
         statusCode.receiveStatusCode404();
     }
-
+    @Then("sistem seharusnya memberikan respons dengan status kode 403")
+    public void statusCode403(){
+        statusCode.receiveStatusCode403();
+    }
     @Then("sistem seharusnya memberikan respons dengan status kode 400")
     public void statusCode400(){
         statusCode.receiveStatusCode400();

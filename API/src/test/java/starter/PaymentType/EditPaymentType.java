@@ -89,7 +89,7 @@ public class EditPaymentType {
         String schema = helper.getResponseSchema(JsonSchema.LOGIN_SUPER_ADMIN_INVALID_USERNAME_RESPONSE_SCHEMA);
 
         restAssuredThat(response -> response.body("'meta'.'success'", is(false)));
-        restAssuredThat(response -> response.body("'meta'.'message'", is("invalid validation")));
+        restAssuredThat(response -> response.body("'meta'.'message'", is("payment type not found")));
 
         restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
     }

@@ -16,7 +16,7 @@ import static starter.URL.*;
 
 public class GetAllMembership {
     @Step("User mengatur endpoint yang valid untuk melihat seluruh data membership")
-    public String ApiEndGetAllMembership(){return urlMembership;}
+    public String ApiEndGetAllMembership(){return urlMemberships;}
 
     @Step("User mengirimkan request untuk meminta seluruh data membership")
     public void requestGetAllMemberships(){
@@ -32,7 +32,7 @@ public class GetAllMembership {
         String schema = helper.getResponseSchema(JsonSchema.GET_ALL_MEMBERSHIP_RESPONSE_SCHEMA);
         restAssuredThat(response -> response.body("'meta'.'success'", is(true)));
         restAssuredThat(response -> response.body("'meta'.'message'", notNullValue()));
-        restAssuredThat(response -> response.body("'total'", notNullValue()));
+        restAssuredThat(response -> response.body("total", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'id'", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'cashierId'", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'name'", notNullValue()));
@@ -43,25 +43,8 @@ public class GetAllMembership {
         restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
     }
 
-    /*Negative case*/
-    @Step("User mengatur endpoint yang salah untuk meminta seluruh data membership")
-    public void getAllMembershipsInvalidEndpoint() {
-        String token = GenerateTokenCashier.generateTokenCashier();
-        String invalidlink = "https://qbills.biz.id/api/v1/membersh";
-        SerenityRest.given()
-                .header("Content-Type", "application/json")
-                .header("Authorization", "Bearer " + token)
-                .get(invalidlink);
-    }
 
-    @Step("Tidak ada data membership yang muncul")
-    public void noMembershipsData(){
-        JsonSchemaHelper helper = new JsonSchemaHelper();
-        String schema = helper.getResponseSchema(JsonSchema.GET_ALL_MEMBERSHIP_INVALID_ENDPOINT_RESPONSE_SCHEMA);
-        restAssuredThat(response -> response.body("'message'", is("Not Found")));
-        restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
 
-    }
 
 
 

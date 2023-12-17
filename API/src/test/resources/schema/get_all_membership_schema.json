@@ -9,6 +9,9 @@
         "meta": {
           "$ref": "#/definitions/Meta"
         },
+        "total": {
+          "type": "integer"
+        },
         "results": {
           "type": "array",
           "items": {
@@ -18,7 +21,8 @@
       },
       "required": [
         "meta",
-        "results"
+        "results",
+        "total"
       ],
       "title": "Welcome"
     },
@@ -56,7 +60,7 @@
           "type": "string",
           "format": "uuid"
         },
-        "point": {
+        "totalPoint": {
           "type": "integer"
         },
         "phoneNumber": {
@@ -69,7 +73,7 @@
         "id",
         "name",
         "phoneNumber",
-        "point"
+        "totalPoint"
       ],
       "title": "Result"
     }

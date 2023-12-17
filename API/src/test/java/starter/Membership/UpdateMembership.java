@@ -14,12 +14,12 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
-import static starter.URL.urlMembership;
+import static starter.URL.*;
 
 public class UpdateMembership {
 
     @Step("User mengatur endpoint dengan valid untuk melakukan update data membership")
-    public String ApiEndUpdateMembership(){return urlMembership;}
+    public String ApiEndUpdateMembership(){return urlmembership;}
 
     @Step("User mengirimkan request untuk melakukan update data membership dengan data yang valid")
     public void requestUpdateMembership(){
@@ -29,27 +29,27 @@ public class UpdateMembership {
         Faker faker = new Faker();
         String name = faker.name().name();
         String phoneNumber = faker.phoneNumber().phoneNumber();
-        requestBody.put("Name", name);
-        requestBody.put("PhoneNumber", phoneNumber);
+        requestBody.put("name", name);
+        requestBody.put("phoneNumber", "088989089878");
 
         SerenityRest.given()
                 .header("Content-Type","application/json")
                 .header("Authorization", "Bearer " + token)
                 .body(requestBody.toString())
-                .put(urlMembership + 1);
+                .put(urlmembership + 30);
     }
 
     @Step("Sistem memberikan data membership yang telah di update sebagai respon")
     public void updateMembership(){
         JsonSchemaHelper helper = new JsonSchemaHelper();
-        String schema = helper.getResponseSchema(JsonSchema.UPDATE_MEMBERSHIP_RESPONSE_SCHEMA);
+        String schema = helper.getResponseSchema(JsonSchema.GET_MEMBERSHIP_BY_ID_RESPONSE_SCHEMA);
         restAssuredThat(response -> response.body("'meta'.'success'", is(true)));
         restAssuredThat(response -> response.body("'meta'.'message'", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'id'", notNullValue()));
-        restAssuredThat(response -> response.body("'results'.'chasierId'", notNullValue()));
+        restAssuredThat(response -> response.body("'results'.'cashierId'", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'name'", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'codeMember'", notNullValue()));
-        restAssuredThat(response -> response.body("'results'.'point'", notNullValue()));
+        restAssuredThat(response -> response.body("'results'.'totalPoint'", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'phoneNumber'", notNullValue()));
 
         restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
@@ -59,17 +59,15 @@ public class UpdateMembership {
         String token = GenerateTokenAdmin.generateTokenAdmin();
 
         JSONObject requestBody = new JSONObject();
-        int lastMembershipID = GetterMembership.getLastMembershipID();
-
-        requestBody.put("Name", " ");
-        requestBody.put("PhoneNumber", " ");
+        requestBody.put("name", " ");
+        requestBody.put("phoneNumber", " ");
 
 
         SerenityRest.given()
                 .header("Content-Type","application/json")
                 .header("Authorization", "Bearer " + token)
                 .body(requestBody.toString())
-                .put(urlMembership + 1);
+                .put(urlmembership + 30);
     }
     @Step("User mengirimkan request untuk melakukan update data membership dengan invalid ID")
     public void requestUpdateMembershipWithInvalidID(){
@@ -79,17 +77,15 @@ public class UpdateMembership {
         String name = faker.name().name();
         String phoneNumber = faker.phoneNumber().phoneNumber();
 
-        int lastMembershipID = GetterMembership.getLastMembershipID();
-
-        requestBody.put("Name", name);
-        requestBody.put("PhoneNumber", phoneNumber);
+        requestBody.put("name", name);
+        requestBody.put("phoneNumber", "998877665544");
 
         String token = GenerateTokenAdmin.generateTokenAdmin();
         SerenityRest.given()
                 .header("Content-Type","application/json")
                 .header("Authorization", "Bearer " + token)
                 .body(requestBody.toString())
-                .put(urlMembership + 100);
+                .put(urlmembership + 100);
 
     }
 }

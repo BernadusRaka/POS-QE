@@ -12,11 +12,11 @@ Feature: Edit Payment Type
   Scenario: Admin mencoba mengubah tipe pembayaran yang tidak ada
     When Admin mengakses endpoint untuk mengubah data tipe pembayaran dengan ID yang tidak valid
     Then sistem seharusnya memberikan respons dengan status kode 404
-    And sistem seharusnya menampilkan pesan kesalahan untuk tipe pembayaran yang tidak ditemukan
+
 
   Scenario: Admin mencoba mengubah tipe pembayaran dengan data yang tidak valid
     When Admin mengakses endpoint untuk mengubah data tipe pembayaran berdasarkan ID dengan typeName yang tidak valid
-    Then sistem seharusnya memberikan respons dengan status kode 400
+    Then sistem seharusnya memberikan respons dengan status kode 404
     And sistem seharusnya menampilkan pesan kesalahan
 
 

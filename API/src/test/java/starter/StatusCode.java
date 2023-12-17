@@ -28,6 +28,11 @@ public class StatusCode {
         restAssuredThat(response -> response.statusCode(409));
     }
 
+    @Step("sistem seharusnya memberikan respons dengan status kode 403")
+    public void receiveStatusCode403() {
+        restAssuredThat(response -> response.statusCode(403));
+    }
+
     @Step("sistem seharusnya memberikan respons dengan status kode 404")
     public void receiveStatusCode404() {
         restAssuredThat(response -> response.statusCode(404));

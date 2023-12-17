@@ -15,7 +15,16 @@ import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 import static org.hamcrest.Matchers.is;
 import static org.hamcrest.Matchers.notNullValue;
-import static starter.URL.urlMembership;
+import static starter.URL.urlStockProduct;
 
 public class GetAllStock {
+
+    @Step("User mengatur endpoint yang valid untuk mendapatkan semua data stok produk")
+    public String ApiEndGetAllStock(){return urlStockProduct;}
+
+    @Step("User mengirim request untuk mendapatkan data")
+    public void  requestGetAllStock(){}
+
+    @Step("Respons berisi data seluruh stok produk muncul")
+    public void getAllStocks(){}
 }

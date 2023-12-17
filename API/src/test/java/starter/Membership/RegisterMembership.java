@@ -12,14 +12,14 @@ import starter.utils.*;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
-import static org.hamcrest.Matchers.is;
-import static org.hamcrest.Matchers.notNullValue;
-import static starter.URL.urlMembership;
+import static org.hamcrest.Matchers.*;
+import static starter.URL.urlmembership;
+
 
 public class RegisterMembership {
     @Step("User mengatur endpoint dengan valid untuk melakukan registrasi member")
     public String apiMemberRegister() {
-        return urlMembership + "register";
+        return urlmembership + "register";
     }
 
     @Step("User mengisikan data dengan lengkap dan valid")
@@ -31,8 +31,8 @@ public class RegisterMembership {
         String phoneNumber = faker.phoneNumber().phoneNumber();
 
 
-        requestBody.put("Name", name);
-        requestBody.put("PhoneNumber", phoneNumber);
+        requestBody.put("name", name);
+        requestBody.put("phoneNumber", "0823306518");
 
         String token = GenerateTokenCashier.generateTokenCashier();
         SerenityRest.given()
@@ -45,15 +45,15 @@ public class RegisterMembership {
     @Step("Data membership baru muncul sebagai respons")
     public void postRegisterMembership(){
         JsonSchemaHelper helper = new JsonSchemaHelper();
-        String schema = helper.getResponseSchema(JsonSchema.REGISTER_MEMBERSHIP_RESPONSE_SCHEMA);
+        String schema = helper.getResponseSchema(JsonSchema.GET_MEMBERSHIP_BY_ID_RESPONSE_SCHEMA);
 
         restAssuredThat(response -> response.body("'meta'.'success'", is(true)));
         restAssuredThat(response -> response.body("'meta'.'message'", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'id'", notNullValue()));
-        restAssuredThat(response -> response.body("'results'.'chasierId'", notNullValue()));
+        restAssuredThat(response -> response.body("'results'.'cashierId'", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'name'", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'codeMember'", notNullValue()));
-        restAssuredThat(response -> response.body("'results'.'point'", notNullValue()));
+        restAssuredThat(response -> response.body("'results'.'totalPoint'", notNullValue()));
         restAssuredThat(response -> response.body("'results'.'phoneNumber'", notNullValue()));
 
         restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
@@ -80,7 +80,6 @@ public class RegisterMembership {
     @Step("User melakukan input data nomor telepon")
     public void postInvalidRegisterWithoutName(){
         JSONObject requestBody = new JSONObject();
-        int lastMembershipID = GetterMembership.getLastMembershipID();
 
         Faker faker = new Faker();
         String name = faker.name().name();

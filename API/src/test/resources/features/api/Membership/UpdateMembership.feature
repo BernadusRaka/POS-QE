@@ -5,7 +5,7 @@
 
     Scenario: User dapat melakukan update data membership
       When User mengirimkan request untuk melakukan update data membership dengan data yang valid
-      Then sistem seharusnya memberikan respons dengan status kode 201
+      Then sistem seharusnya memberikan respons dengan status kode 200
       And Sistem memberikan data membership yang telah di update sebagai respon
 
     Scenario: User tidak dapat melakukan update data membership dengan salah satu input tidak diisi
