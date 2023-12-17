@@ -22,7 +22,7 @@ public class DeleteMembership {
         String token = GenerateTokenAdmin.generateTokenAdmin();
         SerenityRest.given()
                 .header("Authorization", "Bearer " + token)
-                .delete(urlmembership + 39);
+                .delete(urlmembership + 39); /*Diganti sebelum run test*/
     }
 
     @Step("Pengguna mendapatkan pesan untuk membership yang sudah terhapus")
@@ -44,7 +44,7 @@ public class DeleteMembership {
         String token = GenerateTokenAdmin.generateTokenAdmin();
         SerenityRest.given()
                 .header("Authorization", "Bearer " + token)
-                .delete(urlmembership);
+                .delete(urlmembership); 
     }
 
 
