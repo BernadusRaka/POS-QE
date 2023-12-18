@@ -32,7 +32,7 @@ public class RegisterMembership {
 
 
         requestBody.put("name", name);
-        requestBody.put("phoneNumber", "0823306518");
+        requestBody.put("phoneNumber", "08233065188");
 
         String token = GenerateTokenCashier.generateTokenCashier();
         SerenityRest.given()
