@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manage Chasier Account,Chrome 120.0.0.0,,,2023-12-16 17:39:02,2023-12-16 17:46:11,7m - 8.762s,ERROR
+,,,,,,,
+Test Cases/Manage Account/CreateAccount/Admin Berhasil Menambahkan Account Baru,Chrome 120.0.0.0,,,2023-12-16 17:39:24,2023-12-16 17:39:30,6.381s,ERROR
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:39:24,2023-12-16 17:39:26,1.943s,PASSED
+"navigateToUrl(""https://qbills.vercel.app/manageaccount"")",Chrome 120.0.0.0,,,2023-12-16 17:39:26,2023-12-16 17:39:27,1.109s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/span_Add Account""))",Chrome 120.0.0.0,,,2023-12-16 17:39:27,2023-12-16 17:39:28,1.028s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qbills  Manage Account/input_w-full rounded-lg bg-transparent outl_e5cdbf""), ""12345678"")",Chrome 120.0.0.0,,,2023-12-16 17:39:28,2023-12-16 17:39:29,1.102s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/button_Save""))",Chrome 120.0.0.0,,,2023-12-16 17:39:29,2023-12-16 17:39:30,0.590s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/p_Congratulations, you have successfully ad_5fe021""))",Chrome 120.0.0.0,,,2023-12-16 17:39:30,2023-12-16 17:39:30,0.525s,PASSED
+"closeBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:39:30,2023-12-16 17:39:30,0.022s,ERROR
+,,,,,,,
+Test Cases/Manage Account/CreateAccount/Admin tidak dapat menambah account baru dengan input data kosong,Chrome 120.0.0.0,,,2023-12-16 17:39:30,2023-12-16 17:39:35,4.891s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:39:30,2023-12-16 17:39:32,2.136s,PASSED
+"navigateToUrl(""https://qbills.vercel.app/manageaccount"")",Chrome 120.0.0.0,,,2023-12-16 17:39:32,2023-12-16 17:39:33,0.770s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/button_Add Account""))",Chrome 120.0.0.0,,,2023-12-16 17:39:33,2023-12-16 17:39:34,0.822s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/button_Save""))",Chrome 120.0.0.0,,,2023-12-16 17:39:34,2023-12-16 17:39:35,0.685s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-16 17:39:35,2023-12-16 17:39:35,0.384s,PASSED
+,,,,,,,
+Test Cases/Manage Account/CreateAccount/Admin tidak dapat menambah data account baru dengan account yang sudah ada,Chrome 120.0.0.0,,,2023-12-16 17:39:35,2023-12-16 17:39:42,6.613s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:39:35,2023-12-16 17:39:37,1.967s,PASSED
+"navigateToUrl(""https://qbills.vercel.app/manageaccount"")",Chrome 120.0.0.0,,,2023-12-16 17:39:37,2023-12-16 17:39:38,0.753s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/button_Add Account""))",Chrome 120.0.0.0,,,2023-12-16 17:39:38,2023-12-16 17:39:39,1.065s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qbills  Manage Account/input_w-full rounded-lg bg-transparent outl_e5cdbf""), ""JoeMama123"")",Chrome 120.0.0.0,,,2023-12-16 17:39:39,2023-12-16 17:39:40,0.968s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/button_Save""))",Chrome 120.0.0.0,,,2023-12-16 17:39:40,2023-12-16 17:39:41,0.587s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/div_SuccessCongratulations, you have succes_548d29""))",Chrome 120.0.0.0,,,2023-12-16 17:39:41,2023-12-16 17:39:41,0.572s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-16 17:39:41,2023-12-16 17:39:42,0.610s,PASSED
+,,,,,,,
+Test Cases/Manage Account/DeleteAccount/Admin berhasil menghapus banyak data account sekaligus,Chrome 120.0.0.0,,,2023-12-16 17:39:42,2023-12-16 17:39:48,5.812s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:39:42,2023-12-16 17:39:43,1.455s,PASSED
+"navigateToUrl(""https://qbills.vercel.app/manageaccount"")",Chrome 120.0.0.0,,,2023-12-16 17:39:43,2023-12-16 17:39:44,0.729s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/input_beforecontent peer form-checkbox rela_219c83""))",Chrome 120.0.0.0,,,2023-12-16 17:39:44,2023-12-16 17:39:45,0.852s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/input_beforecontent peer form-checkbox rela_219c83""))",Chrome 120.0.0.0,,,2023-12-16 17:39:45,2023-12-16 17:39:46,0.671s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/input_beforecontent peer form-checkbox rela_219c83""))",Chrome 120.0.0.0,,,2023-12-16 17:39:46,2023-12-16 17:39:46,0.536s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/span_Delete (3)""))",Chrome 120.0.0.0,,,2023-12-16 17:39:46,2023-12-16 17:39:47,0.500s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/button_Delete""))",Chrome 120.0.0.0,,,2023-12-16 17:39:47,2023-12-16 17:39:47,0.499s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-16 17:39:47,2023-12-16 17:39:48,0.365s,PASSED
+,,,,,,,
+Test Cases/Manage Account/DeleteAccount/Admin berhasil menghapus data account cashier,Chrome 120.0.0.0,,,2023-12-16 17:39:48,2023-12-16 17:39:52,4.134s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:39:48,2023-12-16 17:39:49,1.403s,PASSED
+"navigateToUrl(""https://qbills.vercel.app/manageaccount"")",Chrome 120.0.0.0,,,2023-12-16 17:39:49,2023-12-16 17:39:50,0.577s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/button_flex items-center justify-center rou_eef4e2""))",Chrome 120.0.0.0,,,2023-12-16 17:39:50,2023-12-16 17:39:51,0.845s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/button_Delete""))",Chrome 120.0.0.0,,,2023-12-16 17:39:51,2023-12-16 17:39:51,0.673s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-16 17:39:51,2023-12-16 17:39:52,0.484s,PASSED
+,,,,,,,
+Test Cases/Manage Account/Search/Admin dapat mencari account dengan search,Chrome 120.0.0.0,,,2023-12-16 17:41:49,2023-12-16 17:42:17,28.221s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:41:49,2023-12-16 17:41:51,1.992s,PASSED
+"navigateToUrl(""https://qbills.vercel.app/manageaccount"")",Chrome 120.0.0.0,,,2023-12-16 17:41:51,2023-12-16 17:41:51,0.732s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/label_Search Account""))",Chrome 120.0.0.0,,,2023-12-16 17:41:51,2023-12-16 17:41:52,0.784s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qbills  Manage Account/input_search""), ""Joe"")",Chrome 120.0.0.0,,,2023-12-16 17:41:52,2023-12-16 17:41:53,0.965s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/svg_MuiSvgIcon-root MuiSvgIcon-fontSizeSmal_b42e5f""))",Chrome 120.0.0.0,,,2023-12-16 17:41:53,2023-12-16 17:42:17,23.710s,FAILED
+,,,,,,,
+Test Cases/Manage Account/Search/Admin tidak dapat mencari account yang invalid,Chrome 120.0.0.0,,,2023-12-16 17:42:17,2023-12-16 17:42:23,6.440s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:42:17,2023-12-16 17:42:19,1.809s,PASSED
+"navigateToUrl(""https://qbills.vercel.app/manageaccount"")",Chrome 120.0.0.0,,,2023-12-16 17:42:19,2023-12-16 17:42:19,0.196s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/label_Search Account""))",Chrome 120.0.0.0,,,2023-12-16 17:42:19,2023-12-16 17:42:21,1.852s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qbills  Manage Account/input_search""), ""TES"")",Chrome 120.0.0.0,,,2023-12-16 17:42:21,2023-12-16 17:42:22,0.675s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/section_FullnameUsernamePassword""))",Chrome 120.0.0.0,,,2023-12-16 17:42:22,2023-12-16 17:42:22,0.674s,PASSED
+"rightClick(findTestObject(""Object Repository/Page_Qbills  Manage Account/section_FullnameUsernamePassword""))",Chrome 120.0.0.0,,,2023-12-16 17:42:22,2023-12-16 17:42:23,0.528s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,2023-12-16 17:42:23,2023-12-16 17:42:23,0.430s,PASSED
+,,,,,,,
+Test Cases/Manage Account/UpdateAccount/Admin berhasil melakukan update data account,Chrome 120.0.0.0,,,2023-12-16 17:45:50,2023-12-16 17:46:11,20.534s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:45:50,2023-12-16 17:45:53,2.798s,PASSED
+"navigateToUrl(""https://qbills.vercel.app/manageaccount"")",Chrome 120.0.0.0,,,2023-12-16 17:45:53,2023-12-16 17:45:54,0.791s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/button_flex items-center justify-center rou_eef4e2""))",Chrome 120.0.0.0,,,2023-12-16 17:45:54,2023-12-16 17:45:55,0.843s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/input_w-full rounded-lg bg-transparent outl_e5cdbf""))",Chrome 120.0.0.0,,,2023-12-16 17:45:55,2023-12-16 17:46:11,16.027s,FAILED

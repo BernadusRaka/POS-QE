@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Qbills  Manage Account/input_w-full rounded-lg bg-transparent outl_e5cdbf",
+      "brokenLocator": "(//input[@value\u003d\u0027\u0027])[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input[@type \u003d \u0027text\u0027]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20231216_173848/Manage Chasier Account/20231216_173849/Object Repository/Page_Qbills  Manage Account/input_w-full rounded-lg bg-transparent outl_e5cdbf_customAttributes.png"
+    }
+  ]
+}

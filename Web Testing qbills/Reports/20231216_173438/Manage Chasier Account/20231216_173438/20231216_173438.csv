@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Manage Chasier Account,Chrome 120.0.0.0,,,2023-12-16 17:34:51,2023-12-16 17:35:19,28.407s,ERROR
+,,,,,,,
+Test Cases/Manage Account/CreateAccount/Admin Berhasil Menambahkan Account Baru,Chrome 120.0.0.0,,,2023-12-16 17:35:13,2023-12-16 17:35:19,6.111s,ERROR
+"openBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:35:13,2023-12-16 17:35:16,2.328s,PASSED
+"navigateToUrl(""https://qbills.vercel.app/manageaccount"")",Chrome 120.0.0.0,,,2023-12-16 17:35:16,2023-12-16 17:35:16,0.573s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/span_Add Account""))",Chrome 120.0.0.0,,,2023-12-16 17:35:16,2023-12-16 17:35:17,1.015s,PASSED
+"setText(findTestObject(""Object Repository/Page_Qbills  Manage Account/input_w-full rounded-lg bg-transparent outl_e5cdbf""), ""12345678"")",Chrome 120.0.0.0,,,2023-12-16 17:35:17,2023-12-16 17:35:18,0.956s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/button_Save""))",Chrome 120.0.0.0,,,2023-12-16 17:35:18,2023-12-16 17:35:19,0.522s,PASSED
+"click(findTestObject(""Object Repository/Page_Qbills  Manage Account/p_Congratulations, you have successfully ad_5fe021""))",Chrome 120.0.0.0,,,2023-12-16 17:35:19,2023-12-16 17:35:19,0.582s,PASSED
+"closeBrowser("""")",Chrome 120.0.0.0,,,2023-12-16 17:35:19,2023-12-16 17:35:19,0.021s,ERROR
