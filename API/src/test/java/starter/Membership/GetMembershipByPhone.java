@@ -26,7 +26,7 @@ public class GetMembershipByPhone {
         SerenityRest.given()
                 .header("Content-Type", "application/json")
                 .header("Authorization", "Bearer " + token)
-                .get(linkPhone + "083678912776");
+                .get(linkPhone + "6281258870429");
     }
     @Step("Data membership dengan nomor telepon yang diminta ditampilkan sebagai respon")
     public void getMembershipByPhone(){
