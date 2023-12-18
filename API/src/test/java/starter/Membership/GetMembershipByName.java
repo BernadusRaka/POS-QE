@@ -26,7 +26,7 @@ public class GetMembershipByName {
         SerenityRest.given()
                 .header("Content-Type", "application/json")
                 .header("Authorization", "Bearer " + token)
-                .get(linkName + "MembershipTest2");
+                .get(linkName + "Fanti");
     }
     @Step("Data membership dengan nama yang diminta ditampilkan sebagai respon")
     public void getMembershipByName(){
