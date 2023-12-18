@@ -12,8 +12,8 @@ public class GenerateTokenSuperAdmin {
         JSONObject userData = FileSuperAdmin.getSuperAdmin();
         JSONObject requestBody = new JSONObject();
 
-        requestBody.put("username", userData.get("username"));
-        requestBody.put("password", userData.get("password"));
+        requestBody.put("username", "arieflazuardi");
+        requestBody.put("password", "12345678");
 
         ResponseBody loginResponse = SerenityRest.given()
                 .header("Content-Type", "application/json")
