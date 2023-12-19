@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Ingredient</name>
+   <tag></tag>
+   <elementGuidId>4bac4f70-4adf-4e77-9720-d66fad6d051b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[3]/div/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>8ab99026-88ef-49bc-92af-6fdad320883a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>ingredient</value>
+      <webElementGuid>6c79e9bb-c1a5-41e5-a60c-c202128eeadf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-semibold absolute cursor-text group-focus-within:static group-focus-within:cursor-default group-focus-within:text-xs group-focus-within:text-N3</value>
+      <webElementGuid>a7204500-ae76-42ed-9ece-1cd85e0f1c31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ingredient</value>
+      <webElementGuid>06c54254-4eac-4b60-a262-711db0e8703a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[1]/section[@class=&quot;fixed left-0 top-0 z-20 flex h-screen w-screen items-center justify-center bg-N7/50&quot;]/form[@class=&quot;grid w-1/2 grid-cols-2 gap-5 rounded-xl bg-N1 p-10&quot;]/section[@class=&quot;space-y-5&quot;]/section[3]/div[@class=&quot;group w-full rounded-xl border px-2 py-1 border-N2 text-N3 focus-within:border-P6 focus-within:text-P6 hover:border-P6 hover:text-P6 focus-within:hover:bg-transparent focus-within:hover:text-P6 h-[50px]&quot;]/div[@class=&quot;flex h-full w-full items-center justify-center gap-2&quot;]/div[@class=&quot;relative flex w-full items-center group-focus-within:flex-col group-focus-within:items-start group-focus-within:justify-center group-hover:flex-col group-hover:items-start group-hover:justify-center&quot;]/label[@class=&quot;font-semibold absolute cursor-text group-focus-within:static group-focus-within:cursor-default group-focus-within:text-xs group-focus-within:text-N3&quot;]</value>
+      <webElementGuid>475a9277-74fc-41c5-9198-29ac0b10fddc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[3]/div/div/div/label</value>
+      <webElementGuid>27b816b3-5441-40b1-84a3-8d99baae8dbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Ingredient' or . = 'Ingredient')]</value>
+      <webElementGuid>90aa4abe-10de-428c-b127-8441e3ba29a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
