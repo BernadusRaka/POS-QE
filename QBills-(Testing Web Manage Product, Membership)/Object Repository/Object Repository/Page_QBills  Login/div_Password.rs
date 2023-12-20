@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Password</name>
+   <tag></tag>
+   <elementGuidId>94a6c45f-39fb-4728-90b6-3b2e5e161234</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>6745f6cf-a0ef-4cf6-8680-f33aedcb95d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>relative flex w-full items-center group-focus-within:flex-col group-focus-within:items-start group-focus-within:justify-center group-hover:flex-col group-hover:items-start group-hover:justify-center</value>
+      <webElementGuid>c16ed498-d07d-4a91-a0b8-07028269de94</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password</value>
+      <webElementGuid>768c61bb-d1da-4f84-b983-60cce949958c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/main[@class=&quot;flex h-screen w-screen items-center justify-center bg-P1 p-5&quot;]/section[@class=&quot;z-10 flex h-fit w-[600px] flex-col items-center justify-center gap-10 rounded-xl bg-white px-5 py-10 shadow-center shadow-N7/20&quot;]/form[@class=&quot;w-full max-w-[550px] space-y-5&quot;]/div[@class=&quot;w-full space-y-5 mb-10&quot;]/section[2]/div[@class=&quot;group w-full rounded-xl border px-2 py-1 border-N2 text-N3 focus-within:border-P6 focus-within:text-P6 hover:border-P6 hover:text-P6 focus-within:hover:bg-transparent focus-within:hover:text-P6 h-[55px]&quot;]/div[@class=&quot;flex h-full w-full items-center justify-center gap-2&quot;]/div[@class=&quot;relative flex w-full items-center group-focus-within:flex-col group-focus-within:items-start group-focus-within:justify-center group-hover:flex-col group-hover:items-start group-hover:justify-center&quot;]</value>
+      <webElementGuid>c5799968-22fc-457c-b410-dab96fecde13</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div/div</value>
+      <webElementGuid>ef93e502-9c10-47e7-b816-7aa8ba0407b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Password' or . = 'Password')]</value>
+      <webElementGuid>f40cb64e-4bb8-4c47-b0cb-e4d6325b89d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

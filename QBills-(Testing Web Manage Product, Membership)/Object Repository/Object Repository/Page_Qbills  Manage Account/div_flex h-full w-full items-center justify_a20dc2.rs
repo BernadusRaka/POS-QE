@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_flex h-full w-full items-center justify_a20dc2</name>
+   <tag></tag>
+   <elementGuidId>44058879-5630-4269-bab0-7e792f45e520</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/section/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1bd172af-5b67-4e35-a0bf-2574e3fe4153</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-full w-full items-center justify-center gap-2</value>
+      <webElementGuid>698ba375-0735-4ad4-b38c-77765a3c569e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[@class=&quot;space-y-5&quot;]/section[@class=&quot;fixed -inset-5 z-50 flex items-center justify-center bg-black/50&quot;]/div[@class=&quot;w-2/5 rounded-xl bg-N1 p-8&quot;]/div[@class=&quot;rounded-xl border border-N2 p-8&quot;]/div[@class=&quot;flex flex-col gap-10&quot;]/div[@class=&quot;flex flex-col gap-8&quot;]/div[@class=&quot;flex flex-col gap-2&quot;]/section[1]/div[@class=&quot;group w-full rounded-xl border px-2 py-1 border-N2 text-N3 focus-within:border-P6 focus-within:text-P6 hover:border-P6 hover:text-P6 focus-within:hover:bg-transparent focus-within:hover:text-P6 h-[50px]&quot;]/div[@class=&quot;flex h-full w-full items-center justify-center gap-2&quot;]</value>
+      <webElementGuid>fe58dc99-d3e5-4bbe-821f-a86c9d2650c1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/section/div/div</value>
+      <webElementGuid>004c2c20-59f2-4f62-9ce5-6b2c7dce7166</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

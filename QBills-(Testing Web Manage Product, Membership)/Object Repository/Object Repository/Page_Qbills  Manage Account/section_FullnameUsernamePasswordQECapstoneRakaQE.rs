@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>section_FullnameUsernamePasswordQECapstoneRakaQE</name>
+   <tag></tag>
+   <elementGuidId>5a44f1bd-1e8b-43ef-acdc-4ae1fca3935b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main/section[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>section.overflow-hidden.rounded-lg.border.border-N2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>section</value>
+      <webElementGuid>ed557851-6f73-4911-b849-8db5e99aef27</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>overflow-hidden rounded-lg border border-N2</value>
+      <webElementGuid>cb655ab9-061c-42e6-b2dd-cde327ead2c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FullnameUsernamePasswordQECapstoneRakaQE*******</value>
+      <webElementGuid>9a23365b-d795-46fa-bdb6-5dec1df2b31f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[@class=&quot;space-y-5&quot;]/section[@class=&quot;overflow-hidden rounded-lg border border-N2&quot;]</value>
+      <webElementGuid>901bfb6d-e295-4c25-a2cf-fcc9449bc20a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/section[2]</value>
+      <webElementGuid>a99d308c-9d7d-4765-80ff-a2fe2a00697f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//section[(text() = 'FullnameUsernamePasswordQECapstoneRakaQE*******' or . = 'FullnameUsernamePasswordQECapstoneRakaQE*******')]</value>
+      <webElementGuid>6877b03e-d423-455f-b872-6b755c794581</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

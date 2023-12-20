@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Password</name>
+   <tag></tag>
+   <elementGuidId>17868c8c-4828-499d-830c-4e83ec6219ab</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//section[2]/div/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7f775511-f6a4-49a9-bbef-752f79bc851c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>216ea5d7-fe42-4c91-b7d4-337c6219af29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-semibold absolute cursor-text group-focus-within:static group-focus-within:cursor-default group-focus-within:text-sm group-focus-within:text-N3</value>
+      <webElementGuid>413152a8-a7ad-437e-8059-d97fe77f6d6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password</value>
+      <webElementGuid>ab6cfb39-1fad-44d7-be3a-fb129a622f51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/main[@class=&quot;flex h-screen w-screen items-center justify-center bg-P1 p-5&quot;]/section[@class=&quot;z-10 flex h-fit w-[600px] flex-col items-center justify-center gap-10 rounded-xl bg-white px-5 py-10 shadow-center shadow-N7/20&quot;]/form[@class=&quot;w-full max-w-[550px] space-y-5&quot;]/div[@class=&quot;w-full space-y-5 mb-10&quot;]/section[2]/div[@class=&quot;group w-full rounded-xl border px-2 py-1 border-N2 text-N3 focus-within:border-P6 focus-within:text-P6 hover:border-P6 hover:text-P6 focus-within:hover:bg-transparent focus-within:hover:text-P6 h-[55px]&quot;]/div[@class=&quot;flex h-full w-full items-center justify-center gap-2&quot;]/div[@class=&quot;relative flex w-full items-center group-focus-within:flex-col group-focus-within:items-start group-focus-within:justify-center group-hover:flex-col group-hover:items-start group-hover:justify-center&quot;]/label[@class=&quot;font-semibold absolute cursor-text group-focus-within:static group-focus-within:cursor-default group-focus-within:text-sm group-focus-within:text-N3&quot;]</value>
+      <webElementGuid>3ac7f1da-c88d-4df9-a696-b6cececd611e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div/div/label</value>
+      <webElementGuid>103598a9-9c50-46d4-bf0a-6f799b564352</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Password' or . = 'Password')]</value>
+      <webElementGuid>94dac983-045c-4a5d-8c66-bd4f24d2586c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

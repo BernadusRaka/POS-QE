@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button__flex items-center justify-center rounded-xl border border-E1 bg-E1 text-E5 hoverborder-E2 hoverbg-E2 activescale-95 activeborder-E3 activebg-E3 p-1.5</name>
+   <tag></tag>
+   <elementGuidId>c9b7fda2-1d85-47be-82be-b22e8ce0bce9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[16]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e3b1ed0b-55ff-48cc-937c-2fd7e413ab19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5d8dd4f3-f4b3-4348-ae29-afa56ef37967</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-center rounded-xl border border-E1 bg-E1 text-E5 hover:border-E2 hover:bg-E2 active:scale-95 active:border-E3 active:bg-E3 p-1.5</value>
+      <webElementGuid>7240d4fb-2d96-4092-8d80-e69c2240ab64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[@class=&quot;space-y-5&quot;]/section[@class=&quot;overflow-hidden rounded-lg border border-N2&quot;]/div[@class=&quot;max-h-[60vh] min-h-[60vh] overflow-scroll&quot;]/table[@class=&quot;h-full w-full&quot;]/tbody[1]/tr[@class=&quot;bg-N1&quot;]/td[@class=&quot;px-4 py-2 text-center&quot;]/div[@class=&quot;flex items-center justify-center&quot;]/span[@class=&quot;mx-2&quot;]/button[@class=&quot;flex items-center justify-center rounded-xl border border-E1 bg-E1 text-E5 hover:border-E2 hover:bg-E2 active:scale-95 active:border-E3 active:bg-E3 p-1.5&quot;]</value>
+      <webElementGuid>136345a7-8599-436d-8bf4-71a90317586c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[16]</value>
+      <webElementGuid>09063945-66d6-49ef-847f-d03e8e7e1a12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[7]/td[5]/div/span[2]/button</value>
+      <webElementGuid>eb11720c-8c18-45bd-abb4-abb39fe56884</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>79a95db9-afaf-4c04-acc4-1b374eda0aa5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

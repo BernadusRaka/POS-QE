@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add Account</name>
+   <tag></tag>
+   <elementGuidId>57e2a6bb-3ef3-4290-b31b-d79f2bab8505</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[2]/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>115d3f01-bf72-4431-b363-f15e506b0fd0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-semibold</value>
+      <webElementGuid>de2aaa2a-9bc2-4ddd-9a59-7844faac5057</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add Account</value>
+      <webElementGuid>4e38ee67-06a4-43ff-b2eb-60eef7a90815</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[@class=&quot;space-y-5&quot;]/section[@class=&quot;flex w-full items-center gap-5&quot;]/div[@class=&quot;flex gap-5&quot;]/div[@class=&quot;w-52&quot;]/button[@class=&quot;flex items-center justify-center rounded-lg border border-P4 bg-P4 text-N1 hover:border-P5 hover:bg-P5 active:scale-95 active:border-P6 active:bg-P6 h-fit w-full gap-1 px-4 py-2.5 text-base&quot;]/span[@class=&quot;font-semibold&quot;]</value>
+      <webElementGuid>975bd1de-d50e-41a3-8615-f07f54eca770</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/button/span</value>
+      <webElementGuid>4548b18d-3d88-4783-b705-a65fc6add4a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Add Account' or . = 'Add Account')]</value>
+      <webElementGuid>85ed89ff-f822-49ff-8c2a-863543371b58</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

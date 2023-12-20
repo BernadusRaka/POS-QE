@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Save</name>
+   <tag></tag>
+   <elementGuidId>651dc34c-8a1a-4ebd-af25-1dbacfd9f1ef</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f0ab0bd0-67e2-4d7a-9c3a-f7ff6e57911e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-semibold</value>
+      <webElementGuid>6338cb4c-16b8-4590-8fd4-a24ebbc4076b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>8bb4b854-ec74-4a39-9c22-8c2c0c57ef1f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[@class=&quot;space-y-5&quot;]/section[@class=&quot;fixed -inset-5 z-50 flex items-center justify-center bg-black/50&quot;]/div[@class=&quot;w-2/5 rounded-xl bg-N1 p-8&quot;]/div[@class=&quot;rounded-xl border border-N2 p-8&quot;]/div[@class=&quot;flex flex-col gap-10&quot;]/div[@class=&quot;flex w-full items-center justify-center gap-4 self-stretch&quot;]/button[@class=&quot;flex items-center justify-center rounded-lg border border-P4 bg-P4 text-N1 hover:border-P5 hover:bg-P5 active:scale-95 active:border-P6 active:bg-P6 h-fit w-full gap-1 px-4 py-2.5 text-base&quot;]/span[@class=&quot;font-semibold&quot;]</value>
+      <webElementGuid>c17fab37-8ffb-4de9-b663-58356b8f22e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/span</value>
+      <webElementGuid>055d31b7-2960-4512-bc4b-df37a6442137</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Save' or . = 'Save')]</value>
+      <webElementGuid>1db17277-9f77-46a0-8727-bfe49f2c60b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

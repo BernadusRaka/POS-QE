@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>svg_MuiSvgIcon-root MuiSvgIcon-fontSizeMedi_be3504</name>
+   <tag></tag>
+   <elementGuidId>b60dafa8-dd03-4439-b26a-c52fe4c22dc3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>svg.MuiSvgIcon-root.MuiSvgIcon-fontSizeMedium.css-1ylescl</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>svg</value>
+      <webElementGuid>f9d001e2-5400-4dcb-9ce5-d4ab3e174e37</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ylescl</value>
+      <webElementGuid>d83202a1-0a46-42dd-850d-6e16b97f6cf5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>focusable</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>cafd9b2e-5c22-44a9-b948-50923daa3782</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>f044b393-3a15-40d8-a98a-937961478360</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>viewBox</name>
+      <type>Main</type>
+      <value>0 0 24 24</value>
+      <webElementGuid>45be79c5-4fcd-41d3-85fa-0927cb9819fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>SearchIcon</value>
+      <webElementGuid>77ea72cb-c577-48bb-9b1a-eb072641b6fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[@class=&quot;space-y-5&quot;]/section[@class=&quot;flex w-full items-center gap-5&quot;]/div[@class=&quot;w-96&quot;]/section[1]/div[@class=&quot;group w-full rounded-xl border px-2 py-1 border-N2 text-N7 focus-within:border-P6 focus-within:text-P6 hover:border-P6 hover:text-P6 focus-within:hover:bg-transparent focus-within:hover:text-P6 h-[50px]&quot;]/div[@class=&quot;flex h-full w-full items-center justify-center gap-2&quot;]/span[1]/svg[@class=&quot;MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1ylescl&quot;]</value>
+      <webElementGuid>61897964-0e6a-45d0-81b4-63b48d9bdcaf</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

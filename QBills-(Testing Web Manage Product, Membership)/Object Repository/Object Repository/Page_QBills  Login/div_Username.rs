@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Username</name>
+   <tag></tag>
+   <elementGuidId>7e0d5039-d5cb-43eb-99d1-4ff61277ef46</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.h-full.w-full.items-center.justify-center.gap-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>8bc4268e-c625-4f27-b432-0d40ae627173</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-full w-full items-center justify-center gap-2</value>
+      <webElementGuid>0fe096a9-0724-48aa-95ab-b3395629a131</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Username</value>
+      <webElementGuid>3c8818a1-1d86-4f51-a529-8640d4c98437</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/main[@class=&quot;flex h-screen w-screen items-center justify-center bg-P1 p-5&quot;]/section[@class=&quot;z-10 flex h-fit w-[600px] flex-col items-center justify-center gap-10 rounded-xl bg-white px-5 py-10 shadow-center shadow-N7/20&quot;]/form[@class=&quot;w-full max-w-[550px] space-y-5&quot;]/div[@class=&quot;w-full space-y-5 mb-10&quot;]/section[1]/div[@class=&quot;group w-full rounded-xl border px-2 py-1 border-N2 text-N3 focus-within:border-P6 focus-within:text-P6 hover:border-P6 hover:text-P6 focus-within:hover:bg-transparent focus-within:hover:text-P6 h-[55px]&quot;]/div[@class=&quot;flex h-full w-full items-center justify-center gap-2&quot;]</value>
+      <webElementGuid>7b31bf38-a29b-476a-a68c-1f8aab5fa70c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>87d2931d-eb50-46b7-9d45-525c5a8dcf03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Username' or . = 'Username')]</value>
+      <webElementGuid>04ca4956-0f00-4198-b632-507ea89c61e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Search Account</name>
+   <tag></tag>
+   <elementGuidId>4a835a84-d7f5-477f-b0b9-66afd3a4025e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>5189496e-2461-4346-b125-f9f834d1297c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>search</value>
+      <webElementGuid>0337edce-4570-4027-aad8-4d34bd8f1bdf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-semibold absolute cursor-text group-focus-within:static group-focus-within:cursor-default group-focus-within:text-xs group-focus-within:text-N3</value>
+      <webElementGuid>3c08ca50-fa1a-4732-a45f-cd9415f362d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search Account</value>
+      <webElementGuid>62dbd6f3-01d5-4e7f-825b-b64ea34de6fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[@class=&quot;space-y-5&quot;]/section[@class=&quot;flex w-full items-center gap-5&quot;]/div[@class=&quot;w-96&quot;]/section[1]/div[@class=&quot;group w-full rounded-xl border px-2 py-1 border-N2 text-N3 focus-within:border-P6 focus-within:text-P6 hover:border-P6 hover:text-P6 focus-within:hover:bg-transparent focus-within:hover:text-P6 h-[50px]&quot;]/div[@class=&quot;flex h-full w-full items-center justify-center gap-2&quot;]/div[@class=&quot;relative flex w-full items-center group-focus-within:flex-col group-focus-within:items-start group-focus-within:justify-center group-hover:flex-col group-hover:items-start group-hover:justify-center&quot;]/label[@class=&quot;font-semibold absolute cursor-text group-focus-within:static group-focus-within:cursor-default group-focus-within:text-xs group-focus-within:text-N3&quot;]</value>
+      <webElementGuid>248a3a95-3536-4952-abf2-00d0f24b71cf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>0e474e54-5ce3-4073-a23e-ee5fffe76d65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Search Account' or . = 'Search Account')]</value>
+      <webElementGuid>be9536ea-4198-4b23-b7a1-33bd4d3eead3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

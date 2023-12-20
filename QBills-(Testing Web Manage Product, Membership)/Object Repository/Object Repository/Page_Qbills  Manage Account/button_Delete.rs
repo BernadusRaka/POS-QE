@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Delete</name>
+   <tag></tag>
+   <elementGuidId>78da3215-fc2d-433f-bd7e-4157d8d1735b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>21f7bcfd-ce28-4ca8-ae29-328f94cde6b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>da481dd3-2ba8-4360-844f-75c50522c65d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mt-auto text-end active:scale-95 text-E4 hover:text-E5 text-sm</value>
+      <webElementGuid>69ba3175-f333-4d7a-a183-29671928c9ee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Delete</value>
+      <webElementGuid>3a957bf6-75b5-4dcc-b0c6-c62470792c99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/button[@class=&quot;mt-auto text-end active:scale-95 text-E4 hover:text-E5 text-sm&quot;]</value>
+      <webElementGuid>44d65466-df12-4195-9d0b-47f542f57f50</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Delete' or . = 'Delete')]</value>
+      <webElementGuid>8b799597-6e4f-4119-8c2e-db3b67fd83fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

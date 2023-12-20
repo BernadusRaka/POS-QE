@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_FullnameUsernamePassword</name>
+   <tag></tag>
+   <elementGuidId>2197595e-d772-4f6a-b457-4a7242aa5636</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main/section[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>dc7b381f-008a-443d-a815-9685be1bc7e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>max-h-[60vh] min-h-[60vh] overflow-scroll</value>
+      <webElementGuid>3729e634-54b6-4fb0-a23d-ecf8414cd340</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FullnameUsernamePassword</value>
+      <webElementGuid>9ba59405-2795-4a52-853e-225e04eae930</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[@class=&quot;space-y-5&quot;]/section[@class=&quot;overflow-hidden rounded-lg border border-N2&quot;]/div[@class=&quot;max-h-[60vh] min-h-[60vh] overflow-scroll&quot;]</value>
+      <webElementGuid>03f25717-49b0-4e9b-a089-83cce60289d6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/section[2]/div</value>
+      <webElementGuid>928ff5a6-dca6-4cd9-b793-7e11f934eff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'FullnameUsernamePassword' or . = 'FullnameUsernamePassword')]</value>
+      <webElementGuid>ccefade3-62e5-42d2-9123-68bb7e584f77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

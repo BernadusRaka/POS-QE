@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Cancel</name>
+   <tag></tag>
+   <elementGuidId>2978d3c7-722c-420b-ad07-3e5155bbc3cd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>564db1a5-ae97-43a1-99ed-867d6b9fa41e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-semibold</value>
+      <webElementGuid>6853b206-54cd-430d-9cbf-8eb6bfb6fec9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel</value>
+      <webElementGuid>15290da6-233e-4692-b775-7d7a0daf7fe7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[@class=&quot;space-y-5&quot;]/section[@class=&quot;fixed -inset-5 z-50 flex items-center justify-center bg-black/50&quot;]/div[@class=&quot;w-2/5 rounded-xl bg-N1 p-8&quot;]/div[@class=&quot;rounded-xl border border-N2 p-8&quot;]/div[@class=&quot;flex flex-col gap-10&quot;]/div[@class=&quot;flex w-full items-center justify-center gap-4 self-stretch&quot;]/button[@class=&quot;flex items-center justify-center rounded-lg border border-P4 text-P4 hover:border-P5 hover:bg-P5 hover:text-N1 active:scale-95 active:border-P6 active:bg-P6 active:text-N1 h-fit w-full gap-1 px-4 py-2.5 text-base&quot;]/span[@class=&quot;font-semibold&quot;]</value>
+      <webElementGuid>78a7d3c9-2426-4490-bc49-23d9e728f29d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/span</value>
+      <webElementGuid>efd49de9-3851-4667-9975-252e802a60e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Cancel' or . = 'Cancel')]</value>
+      <webElementGuid>0f078ea8-6272-4aa5-a505-42e3562f8095</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
