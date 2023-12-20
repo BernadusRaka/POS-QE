@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin tidak dapat mencari akun yang tidak tersedia</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d1cf51e8-0307-43ba-aeec-d80d39942b44</testCaseGuid>
+</TestCaseEntity>

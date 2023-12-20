@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin tidak dapat membuat akun dengan input kosong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0003a3c2-f643-40f6-b0ec-75f9ed307fc1</testCaseGuid>
+</TestCaseEntity>

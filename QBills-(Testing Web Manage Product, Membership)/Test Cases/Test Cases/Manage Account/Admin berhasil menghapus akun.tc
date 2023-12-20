@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin berhasil menghapus akun</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd4689be-842e-4655-af6d-e01340dda2f1</testCaseGuid>
+</TestCaseEntity>

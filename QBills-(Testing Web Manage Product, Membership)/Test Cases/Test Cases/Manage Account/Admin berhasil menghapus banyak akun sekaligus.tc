@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Admin berhasil menghapus banyak akun sekaligus</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abfc2fa7-71ed-4bb7-8944-8334070103a5</testCaseGuid>
+</TestCaseEntity>
