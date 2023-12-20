@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Detail_flex h-400px w-full items-center_a0ec6c</name>
+   <tag></tag>
+   <elementGuidId>18cc4f97-2b6f-45e1-91bb-9332e26f6393</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//label/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>174664af-449d-46e9-b9c2-ae5312157397</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex h-[400px] w-full items-center justify-center rounded-xl border border-N2</value>
+      <webElementGuid>9f3ea921-558b-4584-9a0c-7badff26fe82</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[1]/section[@class=&quot;fixed left-0 top-0 z-20 flex h-screen w-screen items-center justify-center bg-N7/50&quot;]/form[@class=&quot;grid w-1/2 grid-cols-2 gap-5 rounded-xl bg-N1 p-10&quot;]/section[@class=&quot;space-y-5&quot;]/div[1]/label[@class=&quot;cursor-pointer&quot;]/div[@class=&quot;flex h-[400px] w-full items-center justify-center rounded-xl border border-N2&quot;]</value>
+      <webElementGuid>005dd3ee-f783-457f-8194-c5827b558cba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/div</value>
+      <webElementGuid>4615c229-7d8c-4ba9-b7f9-f67f094e82e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

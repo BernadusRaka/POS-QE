@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "1BBCDD50C61EF29E863AFD77372AD271",
+  "keywordClasses": [
+    {
+      "name": "report.GetReportStepDef",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
