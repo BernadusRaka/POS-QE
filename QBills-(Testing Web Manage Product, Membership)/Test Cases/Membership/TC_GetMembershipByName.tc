@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_GetMembershipByName</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>abe6b707-6853-4f82-a68b-3e83c435185e</testCaseGuid>
+</TestCaseEntity>

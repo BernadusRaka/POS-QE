@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "89D5A26F9D49EAA13FADDF2B7063ECBA",
+  "keywordClasses": [
+    {
+      "name": "manageProduct.GetProductByNameStepDef",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Detail</name>
+   <tag></tag>
+   <elementGuidId>027efabf-f2ae-4b05-b727-eb9acd8d7f02</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form/section/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex.flex-col.gap-5 > div.flex.items-center.justify-between</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>394ca92f-25ba-4c1e-b338-8109344aef25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex items-center justify-between</value>
+      <webElementGuid>d4b9912e-b0c9-478e-a4f8-60926780352e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Detail</value>
+      <webElementGuid>26530616-e16b-46dd-bba6-4500335576dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[@class=&quot;scroll-smooth&quot;]/body[@class=&quot;__className_8299a1&quot;]/div[@class=&quot;ml-96 p-5&quot;]/main[1]/section[@class=&quot;fixed left-0 top-0 z-20 flex h-screen w-screen items-center justify-center bg-N7/50&quot;]/form[@class=&quot;grid w-1/2 grid-cols-2 gap-5 rounded-xl bg-N1 p-10&quot;]/section[@class=&quot;space-y-5&quot;]/div[@class=&quot;flex flex-col gap-5&quot;]/div[@class=&quot;flex items-center justify-between&quot;]</value>
+      <webElementGuid>a979cce6-6a72-4880-82c5-b353e3c375f1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/section/div/div</value>
+      <webElementGuid>3400789b-36fc-461b-a314-31c766c8f86d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Detail' or . = 'Detail')]</value>
+      <webElementGuid>de417db7-7f50-4802-8f36-e6468b3f5c4e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
